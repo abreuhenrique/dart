@@ -3,11 +3,10 @@ import 'dart:io';
   int? idade;
   double? altura;
   double? mesada;
-// void main(){
+  void main(){
   dados_joven();
   brinquedo();
-}
-
+  }
 void dados_joven(){
   print('Digite o Seu Nome:');
   nome = stdin.readLineSync()!;
