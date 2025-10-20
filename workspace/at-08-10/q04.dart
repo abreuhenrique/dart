@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 import 'dart:io';
 void main(){
   print('Digite um número');
@@ -44,15 +43,4 @@ void main(){
     default:
       print('Mês Inválido');
   }
-
-=======
-import:'dart:io';
-void main(){
-    print("Digite um número referente a um dos mêses do ano");
-    int n = int.parse(stdin.readLineSync()!);
-
-    switch case(n){
-        case 1:
-            print()
-    }
->>>>>>> 662a572f8e87e021d1fab26a87eb52e8f2f3f23b
+}

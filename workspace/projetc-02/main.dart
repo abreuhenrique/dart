@@ -7,15 +7,4 @@ void main() {
   print('4_Consulta Clima');
   print('Digite uma das opções');
   int? opcao = int.parse(stdin.readLineSync()!);
-switch (opcao) {
-  case 1:
-    consultaWebsite();
-    break;
-  case 2:
-
-  case 3
-    consultaCep()
-  case 4
-    break;
-}
 }
