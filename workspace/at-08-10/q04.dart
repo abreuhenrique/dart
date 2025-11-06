@@ -1,4 +1,5 @@
-import:'dart:io';
+import "dart:io";
+
 void main(){
     print("Digite um número referente a um dos mêses do ano");
     int n = int.parse(stdin.readLineSync()!);
@@ -6,5 +7,6 @@ void main(){
     switch case(n){
         case 1:
             print()
+        break;
     }
 }
