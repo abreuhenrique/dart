@@ -23,7 +23,7 @@ void produtos(){
   print("Valor:");
   vlr = double.parse(stdin.readLineSync()!);
 
-  tot = quant! * vlr!;
+  tot = quant * vlr;
 
   print('$quant unidades de $nome é igual a $tot');
 
