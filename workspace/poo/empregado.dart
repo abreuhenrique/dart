@@ -9,9 +9,11 @@ class Empregado{
   void alteraNome() {}
   void alteraIdade() {}
   void aumentaSalario() {}
-  void diminuiSalario() {}
+  void diminuiSalario(double x) {
+    salario = salario! - x;
+  }
 
-  void mostrarDados(){
+  void mostraDados(){
     print('Nome: $nome');
     print('Idade: $idade');
     print('Sexo: $sexo');
