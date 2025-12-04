@@ -1,4 +1,3 @@
-import 'dart:io';
 void main(){
   List<double> temperaturas = [36.5, 37.2, 38.1, 36.8, 37.0];
   print(temperaturas);

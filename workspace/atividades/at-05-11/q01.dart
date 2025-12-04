@@ -1,4 +1,3 @@
-import 'dart:io';
 void main(){
   List<int> matricula = [8734, 6444, 3744, 1192, 2234];
   List<String> nome = ['Ana Oliveira', 'Marcelo Alves', 'Maria Júlia', 'Miguel Souza', 'Pedro Antônio'];

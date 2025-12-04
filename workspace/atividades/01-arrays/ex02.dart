@@ -1,4 +1,3 @@
-import 'dart:io';
 void main(){
   List<String> frutas = [];
   print('A lista está vazia? ${frutas.isEmpty}');
